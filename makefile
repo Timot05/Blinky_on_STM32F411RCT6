@@ -8,6 +8,7 @@ SPL_C_FILES = misc.c stm32f4xx_gpio.c stm32f4xx_rcc.c
 # Relative path to Standard Peripheral Library
 SPL_REL_PATH = libraries/STM32F4xx_StdPeriph_Driver/src
 
+# Source files
 SRC_C_FILES :=	$(wildcard *.c) \
 				$(notdir $(wildcard src/*.c)) \
 				$(SPL_C_FILES)
